@@ -14,4 +14,13 @@ for i in range(1,31,7):
 	f = open(namefile,'w')
 	f.write(html.decode(encoding="utf-8", errors="ignore"))
 	f.close()
+
+##hack -> utiliser le ws https://services.data.shom.fr/b2q8lrcdl4s04cbabsj4nhcb/hdm/spm/hlt?harborName=PORT-BLOC&duration=7&date=2018-07-8&utc=standard&correlation=1
+##avec la clé b2q8lrcdl4s04cbabsj4nhcb que l'on trouve après la 6 eme occuence de //services.data.shom.fr/ dans l'attribut "content" de la balise <meta name="shom-horaires-des-marees/config/environment"
+##
+##Request URL: https://services.data.shom.fr/b2q8lrcdl4s04cbabsj4nhcb/hdm/spm/hlt?harborName=PORT-BLOC&duration=7&date=2018-07-8&utc=standard&correlation=1
+##Request Method: GET
+##Status Code: 200 OK
+##Remote Address: 160.92.152.201:443
+##Referrer Policy: no-referrer-when-downgrade
 	
