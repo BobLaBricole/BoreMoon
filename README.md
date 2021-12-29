@@ -1,2 +1,2 @@
 # BoreMoon
-Webapp to calculate schedule time of Tidal Bore at Saint Pardon France
+Python script to calculate schedule time of Tidal Bore at Saint Pardon France
